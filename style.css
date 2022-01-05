@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.max-img{
+    max-width: 60%;
+}
+/* section part */
+section{
+    display: flex;
+    height: 150px;
+    
+}
+.haif-with{
+    width: 50%;
+    padding: 5%;
+}
+.title-section{
+    border-left: 6px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+    padding-left: 10px;
+    
+    
+}
+p{
+    font-size: 20px;
+    
+    color: gray;
+}
+h1{
+    font-size: 50px;
+    color: rgb(194, 223, 28);
+}
+span{
+    color: red;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+
+}
+/*section part close */
+
+/* hover part |*/
+.button:hover{
+    color: #fff;
+    background: rgb(12, 103, 223);
+}
