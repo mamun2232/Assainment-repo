@@ -173,7 +173,19 @@ footer{
     text-align: center;
     font-size: 30px;
 }
-
+.half-with{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+.image img{
+    width: 70%;
+    size: 100px;
+    margin-left: 40px;
+}
     
     
     
