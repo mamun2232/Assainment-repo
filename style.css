@@ -6,7 +6,8 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .max-img{
-    max-width: 50%;
+    max-width: 70%;
+    
 }
 /* section part */
 .first-section{
@@ -173,19 +174,7 @@ footer{
     text-align: center;
     font-size: 30px;
 }
-.half-with{
-    display: flex;
-}
-.half{
-    width: 50%;
-    padding: 10px;
-    margin: 5px;
-}
-.half img{
-    width: 70%;
-    size: 100px;
-    margin-left: 40px;
-}
+
     
     
     
