@@ -3,17 +3,18 @@ body{
     padding: 0;
 }
 .max-img{
-    max-width: 60%;
+    max-width: 70%;
 }
 /* section part */
-section{
+.first-section{
     display: flex;
-    height: 150px;
+    
+    
     
 }
 .haif-with{
     width: 50%;
-    padding: 5%;
+    padding:  4%;
 }
 .title-section{
     border-left: 6px solid;
@@ -39,7 +40,7 @@ span{
 .button{
     text-decoration: none;
     color: #fff;
-    background: orange;
+    background: rgb(12, 103, 223);
     padding: 10px 20px;
     border-radius: 5px;
 
@@ -47,8 +48,134 @@ span{
 }
 /*section part close */
 
-/* hover part |*/
-.button:hover{
-    color: #fff;
-    background: rgb(12, 103, 223);
+.segend-section{
+    height: 500px;
+    
+    
 }
+.segend-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.section{
+    display: flex;
+    
+}
+.img-icon{
+    max-width: 30%;
+}
+.left{
+    width: 30%;
+    padding: 10px 15px;
+}
+.mission{
+    background: rgb(208, 224, 170);
+    margin: 1% 4%;
+    border-radius: 5px;
+}
+.vission{
+    background: rgb(146, 185, 207);
+    margin: 1% 4%;
+    border-radius: 5px;
+    
+}
+.goals{
+    background: rgb(157, 224, 199);
+    margin: 1% 4%;
+    border-radius: 5px;
+}
+/* close segend section */
+.thered-section{
+    display: flex;
+    
+}
+.developeer-section{
+    margin-right: 50px;
+    
+}
+.img-section{
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+/* close threed section */
+.forth-section{
+    display: flex;
+    
+}
+
+.img-section1{
+    display: flex;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: bottom;
+}
+/* close forth section */
+
+
+.countact-section{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background: rgb(127, 196, 241);
+    margin-top: 20px;
+    box-shadow: 20px 10px 20px black;
+    
+
+}
+
+.contact-info{
+    color: #fff;
+    padding: 40px;
+    line-height: 50px;
+    font-size: 25px;
+}
+.contact-us{
+    color: #fff;
+    font-size: 25px;
+}
+.contact-info i{
+    margin-right: 25px;
+}
+.contact-us input{
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    color: #000;
+  
+}
+#text{
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    color: #000;
+  
+
+}
+/* close contact section */
+footer{
+    background: #000;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+    
+    
+    
+    
+
+    
+    
+    
+
+
